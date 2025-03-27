@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body >
+    
+    <body bgcolor="#D#D3D3"></body>
+ <!-- <img src="Indian_Institute_of_Technology_Bhubaneswar_Logo.svg.png" height="100" width="100">  -->
+    <h1><u> Registration Form For IIT Bhubaneswar  </u></h1>
+   </center>  <br>
+
+    <form method="get / post"  action="thanx.html">
+      <label for="user"><b>User Type :</b></label>
+        <input type="radio" name="type"   value="student"> Student
+        <input type="radio" name="type"   value="faculty"> Faculty
+        
+      <label for="sname"><h3>Name:</label>
+        <input type="text" size=20 maxlength="30" placeholder="Enter your name">
+    </h3> <!-- <br>
+        <br> -->
+        <!-- <label for="age">Age</label>
+        <input type="number" size=2 > -->
+
+<!-- <br>
+<br> -->
+        <!-- <label for="gender">Gender</label>
+        <select  name="gender" size="0">
+            <option value="">--Select Gender--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select> -->
+        
+        <label for ="age" ><h3>Gender :</label><br></h3>
+        <input type="radio" name="age1" value="Male"/>Male
+       <br>
+        <input type="radio" name="age1"  value="Female"/>Female <br>
+        <input type="radio" name="age1"/> Prefer not to say
+    
+        <br>
+        <br>
+
+        <label for="dob"><b>Date of Birth : </b></label>
+        <input type="date"  name="dob" >
+        <br>
+        <br>
+        <label for="address"><b>Enter your Address :</b></label>
+        
+        <textarea name="address" rows="3" cols="25" placeholder="Enter your Address "></textarea>
+    
+            <br>
+            <br>
+        <label for="phone"><b>Phone Number :</b></label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+        
+        <br>
+        <br> 
+        <label for="email"><b>Email :</b></label>
+        <input type="email"  placeholder="Enter Your Email ">
+        <br>
+        <br>
+        <label for="course"><b>Course :</b></label>
+        <select id="course" name="course" size="">
+            <option value="">--Select Course--</option>
+            <option value="bsc">B.Sc</option>
+            <option value="btech">B.Tech</option>
+            <option value="ba">B.A</option>
+            <option value="bcom">B.Com</option>
+            <option value="mca">MCA</option>
+        </select>
+        <br>
+        <br>
+        <b><label for ="dept"> Department : </label> </b>
+        <select name = "dept" size = 0>
+            <option> select</option>
+            <option> School of Computer Science Engineering</option>
+            <option> School of Electical Engineering</option>
+            <option> School of Chemical Engineering</option>
+            <option> School of Mechanical Engineering</option>
+            <option> School of Electronics and Telecommunications</option>
+            <option> School of Civil Engineering</option>
+        </select>
+        <br>
+        <br>
+        <label><b>Interests :</b></label><br>
+        <input type="checkbox" id="sports" name="interests" value="Sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="interests" value="Music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="art" name="interests" value="Art">
+        <label for="art">Art</label><br>
+        <input type="checkbox" id="coding" name="interests" value="Coding">
+        <label for="coding">Coding</label>
+       
+            <br><br>
+
+            <b><label for = "pass"> Enter password : </label></b>
+            <input type = "password" placeholder="Enter your password"/>
+        <!-- <center><button type="submit">Register</button> -->
+    <br>
+    <br>
+     <input type="reset" />
+     <center>  <button type="submit" >Register</button>
+       
+    </form>
+        
+</body>
+</html>

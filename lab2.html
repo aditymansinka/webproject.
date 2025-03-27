@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+    </head>
+
+    <body bgcolor="#C0C8D9">
+        <u><h1>Registration Form for ABC University</h1></u>
+        <form method = "get/post" action = "thanku.html" >
+            <b><label for = "user"> User type : </label></b>
+            <input type = "radio" name = "user" value = "stu"/> Student
+            <input type = "radio" name = "user" value = "prof"/> Faculty
+ 
+            <br><br>
+            <b><label for = "sname">Name : </label></b>
+            <input type = "text" size = 20 maxlength = 30 placeholder="Enter Your Name">
+            
+            <br>
+            <br>
+            <b><label for="dob">  Date of Birth : </label></b>
+            <input type="date">
+        
+            <br>
+            <br>
+            <b><label for = "gender">Gender : </label></b>
+            <select name="gender" size = 0>
+                <option>select</option>
+                <option> Female</option>
+                <option> Male</option>
+                <option> Transgender</option>
+                <option> Prefer not to say</option>
+            </select>
+            <br>
+            <br>
+            <b><label for = "adddress"> Address : </label></b>
+            <textarea name = "address" rows = 3 cols = 25 placeholder="Enter your full address"></textarea>
+            <br><br>
+
+            <b><label for = "mobile"> Contact No. : </label></b>
+            <input type = "number" size = 10 placeholder="Enter your phone no.">
+
+            <br><br>
+
+            <b><label for = "mail"> E-Mail ID : </label></b>
+            <input type = "email" placeholder="Enter your email here">
+
+
+            <br><br>
+            <b><label for = "qual"> Qualification : </label><br></b>
+            <input type = "checkbox" name = "qual1"/> Higher Secondary<br>
+            <input type = "checkbox" name = "qual2"/> B.Tech<br>
+            <input type = "checkbox" name = "qual3"/> M.Tech<br>
+
+            <br>
+            <b><label for = "course"> Course : </label></b>
+            <select name = "course" size = 0>
+                <option>select</option>
+                <option> Bachelors in Technology</option>
+                <option> Master Programs</option>
+                <option> Doctoral Programs</option>
+            </select>
+            <br><br>
+
+            <b><label for ="dept"> Department : </label> </b>
+            <select name = "dept" size = 0>
+                <option> select</option>
+                <option> School of Computer Science Engineering</option>
+                <option> School of Electical Engineering</option>
+                <option> School of Chemical Engineering</option>
+                <option> School of Mechanical Engineering</option>
+                <option> School of Electronics and Telecommunications</option>
+                <option> School of Civil Engineering</option>
+            </select>
+
+            <br><br>
+
+            <b><label for = "pass"> Enter password : </label></b>
+            <input type = "password" placeholder="Enter your password"/>
+
+            <br><br>
+            <input type = "reset" value = "Clear"/>
+            <input type = "submit" value = "Submit"/>
+        </form>
+    </body>
+</html>
